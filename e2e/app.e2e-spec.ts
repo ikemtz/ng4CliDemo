@@ -11,6 +11,7 @@ describe('ng4-cli-demo App', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
   });
+
     it('After setting hero name it should be displayed', () => {
     page.navigateTo();
     page.setName('Isaac Martinez');
